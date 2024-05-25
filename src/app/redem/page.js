@@ -1,12 +1,14 @@
-import AllMovies from "@/components/AllMovies";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+import React from "react";
 
-export default function HomePage() {
+const RedemPage = () => {
   return (
     <MaxWidthWrapper>
       <div>
-        <AllMovies />
+        <p>Redem Action</p>
       </div>
     </MaxWidthWrapper>
   );
-}
+};
+
+export default RedemPage;
